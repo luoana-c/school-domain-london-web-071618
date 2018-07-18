@@ -11,6 +11,7 @@ class School
   def add_student=(student, grade)
     @student = student
     @grade = grade
+    if 
     roster[grade] = []
     roster[grade] << student
   end 
