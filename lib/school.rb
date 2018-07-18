@@ -28,6 +28,6 @@ class School
       grade = students.sort
       
     end 
-    @roster
+    #@roster
   end 
 end 
