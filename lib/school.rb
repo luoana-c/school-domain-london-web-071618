@@ -12,7 +12,7 @@ class School
     @student = student
     @grade = grade
     #if roster[:grade] == nil
-      roster[grade] = []
+      @roster[grade] = []
     #end 
     roster[grade] << student
   end 
