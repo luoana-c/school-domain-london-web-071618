@@ -29,6 +29,6 @@ class School
       new_roster[grade] = students.sort
       
     end 
-    #@roster
+    new_roster
   end 
 end 
