@@ -5,15 +5,15 @@ class School
   end 
   
   def roster
-    @roster = {}
+    ROSTER = {}
   end 
   
   def add_student (student, grade)
     @student = student
     @grade = grade
     #if roster[:grade] == nil
-      roster[grade] = []
+      ROSTER[grade] = []
     #end 
-    roster[grade] << student
+    ROSTER[grade] << student
   end 
 end 
